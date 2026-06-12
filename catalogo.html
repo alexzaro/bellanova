@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo — BellaNova VIP</title>
+  <meta name="description"
+    content="Descubre productos premium de skincare, clean beauty y suplementos. Marcas internacionales como The Ordinary, COSRX, Beauty of Joseon, CeraVe y La Roche-Posay. Asesoría personalizada por WhatsApp.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="BellaNova VIP — Boutique Premium de Skincare & Suplementos">
+  <meta property="og:description"
+    content="Tu destino premium de skincare, clean beauty y suplementos. Marcas internacionales curadas para ti.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://BellaNova VIP.bo">
+  <meta property="og:image" content="assets/img/hero.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BellaNova VIP — Boutique Premium de Skincare & Suplementos">
+  <meta name="twitter:description" content="Descubre productos premium de skincare, clean beauty y suplementos.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/img/favicon-32x32.png" sizes="32x32" />
+
+  <!-- Preload Data -->
+  <link rel="preload" href="data/productos.json" as="fetch" crossorigin="anonymous">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <a href="#catalogo" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- ════════ ANNOUNCEMENT BAR ════════ -->
+  <div class="announcement-bar" id="announcementBar">
+    <div class="announcement-bar__inner">
+      <div class="announcement-bar__item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <rect x="1" y="3" width="15" height="13" rx="2" ry="2" />
+          <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+          <circle cx="5.5" cy="18.5" r="2.5" />
+          <circle cx="18.5" cy="18.5" r="2.5" />
+        </svg>
+        Envíos gratis por compras mayores a Bs. 500
+      </div>
+      <div class="announcement-bar__item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path
+            d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+        </svg>
+        Asesoría gratuita personalizada por WhatsApp
+      </div>
+      <div class="announcement-bar__item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+        </svg>
+        Productos 100% originales de skincare y suplementos
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════ HEADER ════════ -->
+
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo" aria-label="BellaNova VIP Home">
+        <img src="assets/img/logo-bellanovavip.png" alt="BellaNova VIP Logo" class="header__logo-img">
+      </a>
+
+
+
+      <nav class="header__nav" id="mainNav" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="index.html#categorias">Categorías</a>
+        <a href="catalogo.html" class="active">Catálogo</a>
+        <a href="index.html#confianza">Nosotros</a>
+      </nav>
+
+      <div class="header__actions">
+        <a href="catalogo.html?focusSearch=true" class="header__search-toggle" aria-label="Buscar productos">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+        </a>
+
+        <button class="header__cart-toggle" id="headerCartToggle" aria-label="Abrir carrito">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span class="cart-badge" id="cartBadgeHeader">0</span>
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ════════ HEADER CATEGORIES SLIDER ════════ -->
+  <div class="header-categories-slider" id="headerCategoriesSlider">
+    <!-- Populated by JS -->
+  </div>
+
+  <!-- ════════ CATÁLOGO ════════ -->
+  <main class="pdp" id="catalogo" style="padding-bottom: var(--space-5xl);">
+    <div class="container">
+      <!-- Breadcrumb -->
+      <nav class="pdp__breadcrumb reveal">
+        <a href="index.html">Inicio</a>
+        <span class="separator">/</span>
+        <span class="current">Catálogo</span>
+      </nav>
+
+      <!-- Search & Toggle Bar -->
+      <div class="catalog-toolbar reveal">
+        <div class="search-input">
+          <span class="search-input__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.3-4.3" />
+            </svg>
+          </span>
+          <input type="text" id="searchInput"
+            placeholder="Buscar productos por ingrediente, nombre, marca o categoría...">
+        </div>
+        <div style="display: flex; gap: var(--space-sm);">
+          <button id="btnOfertas" class="btn btn--outline" aria-label="Ver Ofertas">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+              <line x1="7" y1="7" x2="7.01" y2="7"></line>
+            </svg>
+            <span>Ofertas</span>
+          </button>
+          <button id="sidebarToggle" class="btn btn--outline" aria-label="Abrir filtros" aria-expanded="false">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+            </svg>
+            <span>Filtrar</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Active Filters Chips -->
+      <div id="activeFiltersChips" class="active-filters reveal"></div>
+
+      <!-- Catalog Layout Grid -->
+      <div class="catalog-layout">
+
+        <!-- Main Area -->
+        <div class="catalog-layout__main reveal">
+          <div class="products-count" id="productsCount">
+            Mostrando <span>0</span> de <span>0</span> productos
+          </div>
+          <div class="products-grid" id="catalogGrid">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+    </div>
+  </main>
+
+  <!-- ════════ TRUST LAYER ════════ -->
+  <section class="section trust" id="confianza">
+    <div class="container">
+      <div class="section__header reveal">
+        <p class="section__eyebrow">¿Por qué BellaNova VIP?</p>
+        <h2 class="section__title">Tu confianza, nuestra prioridad</h2>
+      </div>
+      <div class="trust-grid reveal">
+        <div class="trust-item">
+          <svg class="trust-item__icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+          </svg>
+          <h3 class="trust-item__title">100% Originales</h3>
+          <p class="trust-item__text">Todos nuestros productos son auténticos, importados directamente de fuentes
+            autorizadas.</p>
+        </div>
+        <div class="trust-item">
+          <svg class="trust-item__icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+          </svg>
+          <h3 class="trust-item__title">Asesoría Experta</h3>
+          <p class="trust-item__text">Recibe recomendaciones personalizadas según tu tipo de piel y objetivos.</p>
+        </div>
+        <div class="trust-item">
+          <svg class="trust-item__icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="1" y="3" width="15" height="13" rx="2" ry="2" />
+            <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+            <circle cx="5.5" cy="18.5" r="2.5" />
+            <circle cx="18.5" cy="18.5" r="2.5" />
+          </svg>
+          <h3 class="trust-item__title">Envío Seguro</h3>
+          <p class="trust-item__text">Tu pedido llega protegido y en perfectas condiciones hasta tu puerta.</p>
+        </div>
+        <div class="trust-item">
+          <svg class="trust-item__icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path
+              d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+          </svg>
+          <h3 class="trust-item__title">Atención WhatsApp</h3>
+          <p class="trust-item__text">Comunicación directa, rápida y personalizada por tu canal favorito.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ CTA BANNER ════════ -->
+  <section class="section">
+    <div class="cta-banner reveal">
+      <h2 class="cta-banner__title">¿Lista para transformar tu rutina?</h2>
+      <p class="cta-banner__text">Escríbenos por WhatsApp y recibe asesoría gratuita para encontrar los productos
+        perfectos para tu piel.</p>
+      <a href="https://wa.me/59178804382?text=Hola%20BellaNova VIP%2C%20me%20gustar%C3%ADa%20recibir%20asesor%C3%ADa%20personalizada%20para%20mi%20rutina%20de%20skincare."
+        target="_blank" rel="noopener" class="btn btn--whatsapp btn--lg">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path
+            d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+        </svg>
+        Iniciar Asesoría Gratuita
+      </a>
+    </div>
+  </section>
+
+  <!-- ════════ FOOTER ════════ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="index.html" aria-label="BellaNova VIP Home"><img src="assets/img/logo-bellanovavip.png" alt="BellaNova VIP Logo"
+              class="footer__logo-img"></a>
+          <p class="footer__tagline">Tu boutique premium de beauty & suplementos</p>
+        </div>
+        <div class="footer__links">
+          <div class="footer__col">
+            <h4 class="footer__col-title">Comprar</h4>
+            <a href="catalogo.html?cat=Sérum">Sérums</a>
+            <a href="catalogo.html?cat=Protector%20Solar">Protección Solar</a>
+            <a href="catalogo.html?cat=Limpiador">Limpiadores</a>
+            <a href="catalogo.html?cat=Colágeno,Vitaminas,Suplemento">Suplementos & Salud</a>
+          </div>
+          <div class="footer__col">
+            <h4 class="footer__col-title">BellaNova VIP</h4>
+            <a href="index.html#confianza">Sobre Nosotros</a>
+            <a href="index.html#confianza">Garantía de Calidad</a>
+            <a href="https://wa.me/59178804382" target="_blank" rel="noopener">Contacto WhatsApp</a>
+          </div>
+          <div class="footer__col">
+            <h4 class="footer__col-title">Contacto</h4>
+            <a href="https://wa.me/59178804382" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+              </svg>
+              WhatsApp
+            </a>
+            <a href="https://www.tiktok.com/@bellanovavip" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+              </svg>
+              TikTok
+            </a>
+            <a href="https://www.facebook.com/share/1EQSenFss1/" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+              </svg>
+              Facebook
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2026 BellaNova VIP. Todos los derechos reservados. Boutique premium de skincare, clean
+          beauty & suplementos.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ════════ BOTTOM NAVIGATION (MOBILE) ════════ -->
+  <div class="bottom-nav" id="bottomNav">
+    <a href="index.html" class="bottom-nav__item" id="bottomNavHome">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+      </svg>
+      <span>Inicio</span>
+    </a>
+    <a href="catalogo.html" class="bottom-nav__item" id="bottomNavCatalog" aria-label="Catálogo">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="3" width="7" height="7"></rect>
+        <rect x="14" y="3" width="7" height="7"></rect>
+        <rect x="14" y="14" width="7" height="7"></rect>
+        <rect x="3" y="14" width="7" height="7"></rect>
+      </svg>
+      <span>Catálogo</span>
+    </a>
+    <button class="bottom-nav__item" id="bottomNavSearch" aria-label="Buscar">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <span>Buscar</span>
+    </button>
+    <a href="https://wa.me/59178804382" target="_blank" rel="noopener" class="bottom-nav__item" id="bottomNavWhatsApp">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
+        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+      </svg>
+      <span>WhatsApp</span>
+    </a>
+  </div>
+
+  <!-- ════════ CART DRAWER ════════ -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="cart-drawer__header">
+      <h2 class="cart-drawer__title">Tu Carrito</h2>
+      <button class="cart-drawer__close" id="cartCloseBtn" aria-label="Cerrar carrito">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="cart-drawer__body" id="cartItemsContainer">
+      <!-- Items will be populated via JS -->
+    </div>
+    <div class="cart-drawer__footer">
+      <div class="cart-drawer__total-row">
+        <span>Total a pagar</span>
+        <strong id="cartTotalPrice">Bs. 0</strong>
+      </div>
+      <button class="btn btn--whatsapp btn--lg" id="checkoutBtn" style="width: 100%;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+        </svg>
+        Enviar pedido por WhatsApp
+      </button>
+    </div>
+  </aside>
+
+
+
+  <!-- Off-Canvas Filter Drawer -->
+  <aside class="catalog-drawer" id="catalogSidebar" aria-label="Filtros de productos">
+    <div class="sidebar-header">
+      <h3 class="sidebar-title">Filtros</h3>
+      <button class="sidebar-close-btn" id="sidebarCloseBtn" aria-label="Cerrar filtros">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="sidebar-body" id="sidebarFiltersContainer">
+      <!-- Rendered by JS -->
+    </div>
+    <div class="sidebar-footer">
+      <button class="btn btn--outline btn--full" id="btnResetAllFilters">Limpiar Filtros</button>
+    </div>
+  </aside>
+
+  <!-- Mobile Sidebar Overlay -->
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <!-- Custom App Logic -->
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

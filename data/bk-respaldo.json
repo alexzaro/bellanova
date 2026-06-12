@@ -1,0 +1,704 @@
+[
+  {
+    "id": 1,
+    "slug": "creme-de-la-mer",
+    "marca": "La Mer",
+    "nombre": "Crème de la Mer",
+    "categoria": "Skincare",
+    "subcategoria": "Hidratante",
+    "pais_origen": "Estados Unidos",
+    "ingredientes_activos": [
+      "Miracle Broth™",
+      "Extracto de Té de Lima"
+    ],
+    "beneficios": [
+      "Hidratación ultra-rica",
+      "Renovación celular profunda",
+      "Calma rojeces",
+      "Piel visiblemente más firme"
+    ],
+    "textura": "Crema ultra-rica y untuosa",
+    "tipo_piel": [
+      "Seca",
+      "Madura",
+      "Sensible"
+    ],
+    "modo_uso": "El Ritual: Calentar entre las yemas de los dedos hasta que se vuelva translúcida. Presionar suavemente sobre rostro.",
+    "descripcion_editorial": "El ícono definitivo del cuidado de la piel de lujo. Nacida del mar, esta crema legendaria tiene el poder de transformar la piel.",
+    "precio": 380,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "bestseller",
+    "imagen": "assets/img/cream.png",
+    "imagenes_secundarias": [
+      "assets/img/texture.png",
+      "assets/img/packaging.png"
+    ],
+    "rating": 4.9,
+    "reviews_count": 1250,
+    "volumen": "60ml",
+    "faq": [
+      {
+        "pregunta": "¿Por qué debo calentarla?",
+        "respuesta": "Activa el Miracle Broth™."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "the-rich-cream-augustinus-bader",
+    "marca": "Augustinus Bader",
+    "nombre": "The Rich Cream",
+    "categoria": "Skincare",
+    "subcategoria": "Hidratante",
+    "pais_origen": "Alemania",
+    "ingredientes_activos": [
+      "TFC8®",
+      "Aceite de Argán",
+      "Aceite de Aguacate"
+    ],
+    "beneficios": [
+      "Estimula renovación celular",
+      "Hidratación intensa",
+      "Reduce signos de envejecimiento"
+    ],
+    "textura": "Crema rica de rápida absorción",
+    "tipo_piel": [
+      "Normal a Seca",
+      "Madura"
+    ],
+    "modo_uso": "El Ritual: Masajear sobre rostro, cuello y escote en movimientos ascendentes.",
+    "descripcion_editorial": "Una crema hidratante intensamente lujosa que estimula los procesos de rejuvenecimiento natural de la piel.",
+    "precio": 290,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "trending",
+    "imagen": "assets/img/cream.png",
+    "imagenes_secundarias": [
+      "assets/img/texture.png",
+      "assets/img/packaging.png"
+    ],
+    "rating": 4.8,
+    "reviews_count": 980,
+    "volumen": "50ml",
+    "faq": [
+      {
+        "pregunta": "¿Qué es TFC8?",
+        "respuesta": "Complejo exclusivo de aminoácidos y vitaminas."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "hyaluronic-serum-dr-barbara-sturm",
+    "marca": "Dr. Barbara Sturm",
+    "nombre": "Hyaluronic Serum",
+    "categoria": "Skincare",
+    "subcategoria": "Sérum",
+    "pais_origen": "Alemania",
+    "ingredientes_activos": [
+      "Ácido Hialurónico",
+      "Verdolaga (Purslane)"
+    ],
+    "beneficios": [
+      "Hidratación profunda instantánea",
+      "Efecto relleno inmediato",
+      "Aporta un glow fresco"
+    ],
+    "textura": "Sérum líquido de absorción instantánea",
+    "tipo_piel": [
+      "Todos los tipos"
+    ],
+    "modo_uso": "El Ritual: Aplicar una pipeta completa y extender sobre rostro.",
+    "descripcion_editorial": "El sérum fundamental. Repleto de moléculas hialurónicas que proporcionan hidratación intensiva, el secreto detrás del 'Sturm Glow'.",
+    "precio": 300,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "recomendado",
+    "imagen": "assets/img/serum.png",
+    "imagenes_secundarias": [
+      "assets/img/texture.png",
+      "assets/img/packaging.png"
+    ],
+    "rating": 4.7,
+    "reviews_count": 850,
+    "volumen": "30ml",
+    "faq": [
+      {
+        "pregunta": "¿Cuándo se usa?",
+        "respuesta": "Diariamente por la mañana y noche antes de la crema."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "nad-plus-longevity-supplement",
+    "marca": "111Skin",
+    "nombre": "NAD+ Longevity Supplement",
+    "categoria": "Wellness",
+    "subcategoria": "Suplemento",
+    "pais_origen": "Reino Unido",
+    "ingredientes_activos": [
+      "Complejo NAD+",
+      "Resveratrol",
+      "Coenzima Q10"
+    ],
+    "beneficios": [
+      "Optimiza la energía celular",
+      "Promueve la longevidad",
+      "Reparación del ADN celular"
+    ],
+    "textura": "Cápsulas premium",
+    "tipo_piel": [
+      "Todos"
+    ],
+    "modo_uso": "El Ritual: Tomar dos cápsulas diarias por la mañana.",
+    "descripcion_editorial": "La cúspide de la ciencia del bienestar abordando el envejecimiento a nivel celular.",
+    "precio": 160,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "nuevo",
+    "imagen": "assets/img/wellness.png",
+    "imagenes_secundarias": [
+      "assets/img/texture.png",
+      "assets/img/packaging.png"
+    ],
+    "rating": 4.9,
+    "reviews_count": 420,
+    "volumen": "60 cápsulas",
+    "faq": [
+      {
+        "pregunta": "¿Qué es el NAD+?",
+        "respuesta": "Coenzima esencial para la producción de energía."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "skin-caviar-liquid-lift-la-prairie",
+    "marca": "La Prairie",
+    "nombre": "Skin Caviar Liquid Lift",
+    "categoria": "Skincare",
+    "subcategoria": "Sérum",
+    "pais_origen": "Suiza",
+    "ingredientes_activos": [
+      "Extracto de Caviar",
+      "Complejo Celular Exclusivo"
+    ],
+    "beneficios": [
+      "Efecto lifting inmediato",
+      "Firmeza a largo plazo",
+      "Restaura la densidad"
+    ],
+    "textura": "Sérum perlado sedoso",
+    "tipo_piel": [
+      "Madura",
+      "Seca",
+      "Normal"
+    ],
+    "modo_uso": "El Ritual: Presionar el activador para mezclar las perlas de caviar en un sérum fluido. Aplicar sobre rostro y cuello.",
+    "descripcion_editorial": "Un prodigio de la ciencia suiza. Este sérum infundido con caviar es la quintaesencia del efecto lifting, esculpiendo los contornos y aportando una firmeza legendaria.",
+    "precio": 735,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "bestseller",
+    "imagen": "assets/img/serum.png",
+    "imagenes_secundarias": [
+      "assets/img/texture.png",
+      "assets/img/packaging.png"
+    ],
+    "rating": 4.9,
+    "reviews_count": 612,
+    "volumen": "50ml",
+    "faq": []
+  },
+  {
+    "id": 6,
+    "slug": "black-rose-cream-mask-sisley",
+    "marca": "Sisley Paris",
+    "nombre": "Black Rose Cream Mask",
+    "categoria": "Skincare",
+    "subcategoria": "Mascarilla",
+    "pais_origen": "Francia",
+    "ingredientes_activos": [
+      "Extracto de Rosa Negra",
+      "Padina Pavonica",
+      "Vitamina E"
+    ],
+    "beneficios": [
+      "Efecto 'buena cara' instantáneo",
+      "Rellena y redensifica",
+      "Luminosidad vibrante"
+    ],
+    "textura": "Crema untuosa con aroma floral",
+    "tipo_piel": [
+      "Todos los tipos"
+    ],
+    "modo_uso": "El Ritual: Aplicar una capa generosa y dejar actuar de 10 a 15 minutos. Retirar el exceso con un disco de algodón.",
+    "descripcion_editorial": "Un tratamiento de juventud instantáneo. Formulada con extracto de Rosa Negra, esta mascarilla envolvente borra los signos de fatiga en solo minutos.",
+    "precio": 190,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "trending",
+    "imagen": "assets/img/cream.png",
+    "imagenes_secundarias": [
+      "assets/img/texture.png",
+      "assets/img/packaging.png"
+    ],
+    "rating": 4.8,
+    "reviews_count": 1024,
+    "volumen": "60ml",
+    "faq": []
+  },
+  {
+    "id": 7,
+    "slug": "prime-renewing-pack-valmont",
+    "marca": "Valmont",
+    "nombre": "Prime Renewing Pack",
+    "categoria": "Skincare",
+    "subcategoria": "Mascarilla",
+    "pais_origen": "Suiza",
+    "ingredientes_activos": [
+      "ADN Triple",
+      "ARN Liposomado",
+      "Péptidos+"
+    ],
+    "beneficios": [
+      "Ilumina la tez al instante",
+      "Alisa las arrugas",
+      "Equilibra la hidratación"
+    ],
+    "textura": "Crema suave y ligera",
+    "tipo_piel": [
+      "Todos los tipos"
+    ],
+    "modo_uso": "El Ritual: Usar como tratamiento intensivo por 20 minutos o como base de luminosidad en una capa fina cada mañana.",
+    "descripcion_editorial": "La legendaria mascarilla 'Photoshop' de Valmont. Un tratamiento celular milagroso que revela un cutis radiante, como si acabaras de dormir 8 horas perfectas.",
+    "precio": 250,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "viral",
+    "imagen": "assets/img/cream.png",
+    "imagenes_secundarias": [
+      "assets/img/texture.png",
+      "assets/img/packaging.png"
+    ],
+    "rating": 4.9,
+    "reviews_count": 870,
+    "volumen": "50ml",
+    "faq": []
+  },
+  {
+    "id": 8,
+    "slug": "facial-treatment-essence-skii",
+    "marca": "SK-II",
+    "nombre": "Facial Treatment Essence",
+    "categoria": "Skincare",
+    "subcategoria": "Esencia",
+    "pais_origen": "Japón",
+    "ingredientes_activos": [
+      "PITERA™ (más del 90%)"
+    ],
+    "beneficios": [
+      "Transformación cristalina",
+      "Minimiza manchas oscuras",
+      "Suaviza la textura"
+    ],
+    "textura": "Agua milagrosa ligera",
+    "tipo_piel": [
+      "Todos los tipos"
+    ],
+    "modo_uso": "El Ritual: Verter unas gotas en las manos y presionar suavemente sobre todo el rostro y cuello hasta su total absorción.",
+    "descripcion_editorial": "Conocida en Asia como el 'Agua Milagrosa'. Contiene más del 90% de PITERA™, un bio-ingrediente natural que promueve el proceso de renovación de la superficie de la piel.",
+    "precio": 235,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "bestseller",
+    "imagen": "assets/img/cleanser.png",
+    "imagenes_secundarias": [
+      "assets/img/texture.png",
+      "assets/img/packaging.png"
+    ],
+    "rating": 4.8,
+    "reviews_count": 3540,
+    "volumen": "160ml",
+    "faq": []
+  },
+  {
+    "id": 9,
+    "slug": "orchidee-imperiale-guerlain",
+    "marca": "Guerlain",
+    "nombre": "Orchidée Impériale Cream",
+    "categoria": "Skincare",
+    "subcategoria": "Hidratante",
+    "pais_origen": "Francia",
+    "ingredientes_activos": [
+      "Orchid Totum™ Molecular Extract"
+    ],
+    "beneficios": [
+      "Regeneración celular suprema",
+      "Densidad y firmeza",
+      "Reducción de arrugas profundas"
+    ],
+    "textura": "Crema lujosa y envolvente",
+    "tipo_piel": [
+      "Madura",
+      "Seca"
+    ],
+    "modo_uso": "El Ritual: Aplicar con movimientos circulares desde el centro del rostro hacia afuera, masajeando para esculpir.",
+    "descripcion_editorial": "Un prodigio de longevidad. Capturando el secreto de las orquídeas más resilientes del mundo, esta crema ofrece una experiencia sensorial inigualable y resultados anti-edad globales.",
+    "precio": 480,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "recomendado",
+    "imagen": "assets/img/cream.png",
+    "imagenes_secundarias": [
+      "assets/img/texture.png",
+      "assets/img/packaging.png"
+    ],
+    "rating": 4.7,
+    "reviews_count": 412,
+    "volumen": "50ml",
+    "faq": []
+  },
+  {
+    "id": 10,
+    "slug": "prestige-la-micro-huile-de-rose-dior",
+    "marca": "Dior",
+    "nombre": "Prestige La Micro-Huile de Rose",
+    "categoria": "Skincare",
+    "subcategoria": "Sérum",
+    "pais_origen": "Francia",
+    "ingredientes_activos": [
+      "Micro-nutrientes de la Rosa de Granville"
+    ],
+    "beneficios": [
+      "Nutrición intensa",
+      "Revitalización profunda",
+      "Corrección de arrugas"
+    ],
+    "textura": "Aceite en sérum con micro-perlas",
+    "tipo_piel": [
+      "Todos los tipos"
+    ],
+    "modo_uso": "El Ritual: Aplicar antes de la crema para potenciar su eficacia, utilizando la técnica de masaje Dior.",
+    "descripcion_editorial": "Una proeza tecnológica que concentra 22 micro-nutrientes vitales de la Rosa de Granville para recargar la piel de juventud y resiliencia.",
+    "precio": 310,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "nuevo",
+    "imagen": "assets/img/serum.png",
+    "imagenes_secundarias": [
+      "assets/img/texture.png",
+      "assets/img/packaging.png"
+    ],
+    "rating": 4.8,
+    "reviews_count": 890,
+    "volumen": "30ml",
+    "faq": []
+  },
+  {
+    "id": 11,
+    "slug": "re-nutriv-ultimate-diamond-estee-lauder",
+    "marca": "Estée Lauder",
+    "nombre": "Re-Nutriv Ultimate Diamond",
+    "categoria": "Skincare",
+    "subcategoria": "Hidratante",
+    "pais_origen": "Estados Unidos",
+    "ingredientes_activos": [
+      "Extracto de Trufa de Diamante Negro"
+    ],
+    "beneficios": [
+      "Lifting visible",
+      "Energía celular",
+      "Luminosidad inigualable"
+    ],
+    "textura": "Crema transformadora aterciopelada",
+    "tipo_piel": [
+      "Madura"
+    ],
+    "modo_uso": "El Ritual: Extraer una pequeña cantidad con la espátula dorada y fundir en la piel con suaves toques.",
+    "descripcion_editorial": "Infundida con el excepcional extracto de Trufa de Diamante Negro, esta crema es una obra maestra que reaviva la vitalidad de la piel, esculpiendo y reafirmando el contorno facial.",
+    "precio": 435,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "trending",
+    "imagen": "assets/img/cream.png",
+    "imagenes_secundarias": [
+      "assets/img/texture.png",
+      "assets/img/packaging.png"
+    ],
+    "rating": 4.6,
+    "reviews_count": 320,
+    "volumen": "50ml",
+    "faq": []
+  },
+  {
+    "id": 12,
+    "slug": "gold-lust-hair-oil-oribe",
+    "marca": "Oribe",
+    "nombre": "Gold Lust Nourishing Hair Oil",
+    "categoria": "Wellness",
+    "subcategoria": "Aceite",
+    "pais_origen": "Estados Unidos",
+    "ingredientes_activos": [
+      "Aceite de Argán",
+      "Extracto de Jazmín",
+      "Oribe Signature Complex"
+    ],
+    "beneficios": [
+      "Brillo sublime",
+      "Protección térmica",
+      "Restaura la fibra capilar"
+    ],
+    "textura": "Aceite ligero no graso",
+    "tipo_piel": [
+      "Todos"
+    ],
+    "modo_uso": "El Ritual: Distribuir unas gotas sobre el cabello húmedo antes del peinado o en cabello seco para un acabado radiante.",
+    "descripcion_editorial": "Oro líquido para tu cabello. Este lujoso aceite ligero se absorbe al instante para restaurar el cabello a su máximo esplendor, protegiéndolo y perfumándolo con la emblemática fragancia Côte d'Azur.",
+    "precio": 60,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "bestseller",
+    "imagen": "assets/img/serum.png",
+    "imagenes_secundarias": [
+      "assets/img/texture.png",
+      "assets/img/packaging.png"
+    ],
+    "rating": 4.9,
+    "reviews_count": 2100,
+    "volumen": "100ml",
+    "faq": []
+  },
+  {
+    "id": 13,
+    "slug": "la-creme-cle-de-peau",
+    "marca": "Clé de Peau Beauté",
+    "nombre": "La Crème",
+    "categoria": "Skincare",
+    "subcategoria": "Hidratante",
+    "pais_origen": "Japón",
+    "ingredientes_activos": [
+      "Skin-Empowering Illuminator",
+      "Extracto de CeraFerment"
+    ],
+    "beneficios": [
+      "Piel radiante al amanecer",
+      "Reafirma y redefine",
+      "Textura exquisita"
+    ],
+    "textura": "Crema nocturna indulgente",
+    "tipo_piel": [
+      "Madura",
+      "Seca"
+    ],
+    "modo_uso": "El Ritual: Como último paso de la rutina nocturna, aplicar una pequeña perla sobre el rostro, masajeando suavemente para relajar las tensiones.",
+    "descripcion_editorial": "La cúspide de la ciencia cosmética japonesa. La Crème trabaja en armonía con los ritmos nocturnos de la piel para optimizar su inteligencia, revelando un rostro excepcionalmente juvenil y luminoso al despertar.",
+    "precio": 550,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "recomendado",
+    "imagen": "assets/img/cream.png",
+    "imagenes_secundarias": [
+      "assets/img/texture.png",
+      "assets/img/packaging.png"
+    ],
+    "rating": 4.9,
+    "reviews_count": 150,
+    "volumen": "30ml",
+    "faq": []
+  },
+  {
+    "id": 14,
+    "slug": "the-silk-cream-tatcha",
+    "marca": "Tatcha",
+    "nombre": "The Silk Cream",
+    "categoria": "Skincare",
+    "subcategoria": "Hidratante",
+    "pais_origen": "Japón/EEUU",
+    "ingredientes_activos": [
+      "Extracto de Seda",
+      "Hadasei-3™",
+      "Perla Akoya"
+    ],
+    "beneficios": [
+      "Hidratación sin peso",
+      "Piel suave como la seda",
+      "Antioxidante protector"
+    ],
+    "textura": "Gel-crema sedoso",
+    "tipo_piel": [
+      "Normal a Mixta",
+      "Sensible"
+    ],
+    "modo_uso": "El Ritual: Recoger con la espátula dorada y masajear con movimientos ascendentes para una hidratación envolvente.",
+    "descripcion_editorial": "Inspirada en los rituales de las geishas. Esta crema de textura ingrávida utiliza proteínas de seda reales para formar un velo hidratante y protector, revelando un cutis luminoso y sin poros visibles.",
+    "precio": 125,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "viral",
+    "imagen": "assets/img/cream.png",
+    "imagenes_secundarias": [
+      "assets/img/texture.png",
+      "assets/img/packaging.png"
+    ],
+    "rating": 4.8,
+    "reviews_count": 1420,
+    "volumen": "50ml",
+    "faq": []
+  },
+  {
+    "id": 15,
+    "slug": "celestial-black-diamond-eye-mask-111skin",
+    "marca": "111Skin",
+    "nombre": "Celestial Black Diamond Eye Mask",
+    "categoria": "Skincare",
+    "subcategoria": "Contorno de Ojos",
+    "pais_origen": "Reino Unido",
+    "ingredientes_activos": [
+      "Polvo de Diamante Negro",
+      "Ácido Hialurónico",
+      "Péptidos Anti-edad"
+    ],
+    "beneficios": [
+      "Borra ojeras y fatiga",
+      "Hidrata y rellena arrugas",
+      "Perfecto antes de un evento"
+    ],
+    "textura": "Parches de hidrogel premium",
+    "tipo_piel": [
+      "Todos"
+    ],
+    "modo_uso": "El Ritual: Aplicar bajo los ojos sobre la piel limpia y seca. Dejar actuar 20 minutos mientras te relajas.",
+    "descripcion_editorial": "El secreto de las celebridades antes de la alfombra roja. Con partículas de diamante negro para una penetración profunda de los activos, estos parches transforman la mirada cansada en minutos.",
+    "precio": 115,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "trending",
+    "imagen": "assets/img/serum.png",
+    "imagenes_secundarias": [
+      "assets/img/texture.png",
+      "assets/img/packaging.png"
+    ],
+    "rating": 4.7,
+    "reviews_count": 830,
+    "volumen": "8 pares",
+    "faq": []
+  },
+  {
+    "id": 16,
+    "slug": "the-lyma-supplement",
+    "marca": "Lyma",
+    "nombre": "The Supplement",
+    "categoria": "Wellness",
+    "subcategoria": "Suplemento",
+    "pais_origen": "Reino Unido",
+    "ingredientes_activos": [
+      "Cynatine® HNS",
+      "HydroCurc®",
+      "Sensoril® Ashwagandha"
+    ],
+    "beneficios": [
+      "Cabello y uñas más fuertes",
+      "Reducción del estrés",
+      "Piel radiante",
+      "Mejora el sueño"
+    ],
+    "textura": "Cápsulas premium de doble capa",
+    "tipo_piel": [
+      "Todos"
+    ],
+    "modo_uso": "El Ritual: Tomar dos cápsulas al día con agua. Los ingredientes están formulados para una absorción óptima en cualquier momento.",
+    "descripcion_editorial": "El suplemento de bienestar definitivo respaldado por la ciencia y avalado por expertos médicos globales. Formula patentada para una transformación integral del cuerpo, la piel y la mente.",
+    "precio": 269,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "nuevo",
+    "imagen": "assets/img/wellness.png",
+    "imagenes_secundarias": [
+      "assets/img/texture.png",
+      "assets/img/packaging.png"
+    ],
+    "rating": 4.9,
+    "reviews_count": 512,
+    "volumen": "30 días de suministro",
+    "faq": []
+  },
+  {
+    "id": 17,
+    "slug": "noni-glow-face-oil-kora",
+    "marca": "KORA Organics",
+    "nombre": "Noni Glow Face Oil",
+    "categoria": "Skincare",
+    "subcategoria": "Aceite",
+    "pais_origen": "Australia",
+    "ingredientes_activos": [
+      "Extracto de Noni",
+      "Aceite de Rosa Mosqueta",
+      "Aceite de Jojoba"
+    ],
+    "beneficios": [
+      "Glow instantáneo",
+      "Nutrición rica en antioxidantes",
+      "Certificado orgánico"
+    ],
+    "textura": "Aceite ligero de rápida absorción",
+    "tipo_piel": [
+      "Todos los tipos"
+    ],
+    "modo_uso": "El Ritual: Calentar unas gotas en las manos y presionar sobre rostro y cuello. Inhalar profundamente para disfrutar su aroma botánico.",
+    "descripcion_editorial": "Creado por Miranda Kerr, este aceite facial rico en antioxidantes es una dosis concentrada de vitaminas vitales para nutrir, alisar y aportar un brillo radiante y saludable.",
+    "precio": 72,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "recomendado",
+    "imagen": "assets/img/serum.png",
+    "imagenes_secundarias": [
+      "assets/img/texture.png",
+      "assets/img/packaging.png"
+    ],
+    "rating": 4.6,
+    "reviews_count": 1850,
+    "volumen": "30ml",
+    "faq": []
+  },
+  {
+    "id": 18,
+    "slug": "bio-lifting-serum-plus-chantecaille",
+    "marca": "Chantecaille",
+    "nombre": "Bio Lifting Serum+",
+    "categoria": "Skincare",
+    "subcategoria": "Sérum",
+    "pais_origen": "Francia",
+    "ingredientes_activos": [
+      "Células Madre Vegetales de Frambuesa",
+      "Péptido Algae Tensing"
+    ],
+    "beneficios": [
+      "Efecto tensor inmediato",
+      "Protege contra la luz azul",
+      "Suaviza líneas de expresión"
+    ],
+    "textura": "Sérum sedoso y fluido",
+    "tipo_piel": [
+      "Madura",
+      "Todos los tipos"
+    ],
+    "modo_uso": "El Ritual: Aplicar dos dosis antes de la crema hidratante, extendiendo desde la base del cuello hacia arriba con movimientos de elevación.",
+    "descripcion_editorial": "La intersección entre la botánica y la tecnología. Un sérum revolucionario que reafirma y suaviza con una potente mezcla de células madre vegetales y péptidos tensores innovadores.",
+    "precio": 295,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "viral",
+    "imagen": "assets/img/serum.png",
+    "imagenes_secundarias": [
+      "assets/img/texture.png",
+      "assets/img/packaging.png"
+    ],
+    "rating": 4.8,
+    "reviews_count": 760,
+    "volumen": "30ml",
+    "faq": []
+  }
+]

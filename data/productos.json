@@ -1,0 +1,780 @@
+[
+  {
+    "id": 1,
+    "slug": "kal-glicinato-de-magnesio",
+    "marca": "KAL",
+    "nombre": "Glicinato de Magnesio",
+    "categoria": "Suplementos",
+    "subcategoria": "Suplemento",
+    "pais_origen": "Estados Unidos",
+    "ingredientes_activos": [
+      "Magnesio (como Glicinato de Magnesio)",
+      "BioPerine® (opcional según etiqueta)"
+    ],
+    "beneficios": [
+      "Promueve la relajación y reduce la ansiedad",
+      "Mejora la calidad del sueño",
+      "Apoya la salud de los huesos y función muscular",
+      "Aumenta la energía celular natural"
+    ],
+    "textura": "Cápsulas blandas (Softgels) fáciles de tragar",
+    "tipo_piel": [
+      "Todos"
+    ],
+    "modo_uso": "El Ritual: Tomar 4 cápsulas blandas al día con una comida o un vaso de agua.",
+    "descripcion_editorial": "El magnesio de más alta absorción y suavidad para tu estómago. Ideal para calmar el sistema nervioso, reducir la ansiedad y potenciar la recuperación de huesos y músculos, devolviéndote la vitalidad diaria.",
+    "precio": 250,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "bestseller",
+    "imagen": "assets/img/kal-magnesio.png",
+    "imagenes_secundarias": [
+      "assets/img/table-kal-magnesio.png",
+      "assets/img/beneficio-kal-magnesio.png"
+    ],
+    "rating": 4.9,
+    "reviews_count": 120,
+    "volumen": "240 cápsulas blandas",
+    "faq": [
+      {
+        "pregunta": "¿Por qué elegir Glicinato?",
+        "respuesta": "El glicinato es la forma de magnesio de mayor biodisponibilidad, lo que significa que tu cuerpo lo absorbe mejor y no tiene efectos laxantes."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "bean-balancing-ampoule-mist-mixsoon",
+    "marca": "Mixsoon",
+    "nombre": "Bean Balancing Ampoule Mist",
+    "categoria": "Skincare",
+    "subcategoria": "Tónico",
+    "pais_origen": "Corea del Sur",
+    "ingredientes_activos": [
+      "Extracto de Frijol Fermentado (Soybean)",
+      "Aceite de Semilla de Jojoba",
+      "Ácido Hialurónico"
+    ],
+    "beneficios": [
+      "Hidratación profunda instantánea",
+      "Equilibra los niveles de agua y sebo",
+      "Nutre y protege la barrera cutánea",
+      "Efecto 'Glass Skin' luminoso"
+    ],
+    "textura": "Bruma fina bifásica (20% aceite, 80% esencia)",
+    "tipo_piel": [
+      "Todos los tipos",
+      "Sensible"
+    ],
+    "modo_uso": "El Ritual: Agitar muy bien antes de usar para mezclar las capas de aceite y sérum. Rociar a unos 20 cm del rostro y dar toquecitos suaves para su absorción. Puedes usarlo antes o después del maquillaje durante todo el día.",
+    "descripcion_editorial": "La revolución de la hidratación instantánea coreana. Esta bruma bifásica combina una capa de aceite nutritivo y un sérum acuoso repleto de fermentos de soja. Una pulsación basta para revitalizar, equilibrar y envolver tu piel en un velo radiante y jugoso en cualquier momento del día.",
+    "precio": 180,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "viral",
+    "imagen": "assets/img/mixsoon-mist.png",
+    "imagenes_secundarias": [
+      "assets/img/mixsoon-mist-2.png"
+    ],
+    "rating": 4.8,
+    "reviews_count": 520,
+    "volumen": "100ml",
+    "faq": [
+      {
+        "pregunta": "¿Puedo usarlo sobre el maquillaje?",
+        "respuesta": "¡Sí! Su bruma es ultra fina, por lo que hidratará y aportará luminosidad a tu rostro sin arruinar tu maquillaje."
+      },
+      {
+        "pregunta": "¿Deja sensación grasosa?",
+        "respuesta": "En absoluto. La proporción exacta de 2:8 (aceite y sérum) está diseñada para nutrir sin dejar ningún residuo pegajoso o pesado."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "creme-jeunesse-immortelle-divine-loccitane",
+    "marca": "L'Occitane",
+    "nombre": "Crème Jeunesse Immortelle Divine",
+    "categoria": "Skincare",
+    "subcategoria": "Hidratante",
+    "pais_origen": "Francia",
+    "ingredientes_activos": [
+      "Aceite Esencial de Siempreviva (Immortelle)",
+      "Vitamina C",
+      "Omegas 3, 6 y 9"
+    ],
+    "beneficios": [
+      "Acción anti-edad global y visible",
+      "Alternativa natural al retinol (suave con la piel)",
+      "Reduce arrugas y reafirma contornos",
+      "Aporta una luminosidad excepcional"
+    ],
+    "textura": "Crema rica, aterciopelada y fundente",
+    "tipo_piel": [
+      "Madura",
+      "Normal a Seca"
+    ],
+    "modo_uso": "El Ritual: Aplicar mañana y noche sobre el rostro y el cuello limpios. Calentar una pequeña cantidad entre las manos y masajear con movimientos alisantes desde el centro del rostro hacia afuera.",
+    "descripcion_editorial": "El milagro antienvejecimiento de la naturaleza francesa. Formulada con la flor de Siempreviva —una flor que nunca se marchita— esta crema es una alternativa natural al retinol que combate los 7 signos principales de la edad. Tu piel lucirá visiblemente más firme, elástica y rebosante de juventud.",
+    "precio": 950,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "bestseller",
+    "imagen": "assets/img/loccitane-divine.png",
+    "imagenes_secundarias": [
+      "assets/img/loccitane-divine-2.png",
+      "assets/img/loccitane-divine-textura.png"
+    ],
+    "rating": 4.9,
+    "reviews_count": 845,
+    "volumen": "50ml",
+    "faq": [
+      {
+        "pregunta": "¿Es apta para pieles sensibles?",
+        "respuesta": "Sí, el extracto de Siempreviva ofrece beneficios antienvejecimiento similares al retinol pero siendo mucho más gentil y respetuoso con las pieles sensibles."
+      },
+      {
+        "pregunta": "¿Puedo usarla de día y de noche?",
+        "respuesta": "Por supuesto. De hecho, usarla dos veces al día potenciará y acelerará los resultados reafirmantes."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "relief-sun-rice-probiotics-beauty-of-joseon",
+    "marca": "Beauty of Joseon",
+    "nombre": "Relief Sun: Rice + Probiotics SPF50+ PA++++",
+    "categoria": "Skincare",
+    "subcategoria": "Protector Solar",
+    "pais_origen": "Corea del Sur",
+    "ingredientes_activos": [
+      "Extracto de Arroz (30%)",
+      "Extractos de Probióticos",
+      "Niacinamida"
+    ],
+    "beneficios": [
+      "Protección UV de amplio espectro",
+      "Calma y nutre la piel",
+      "Acabado hidratante sin capa blanca",
+      "Mejora la textura de la piel"
+    ],
+    "textura": "Crema ligera tipo loción",
+    "tipo_piel": [
+      "Todos los tipos",
+      "Sensible"
+    ],
+    "modo_uso": "El Ritual: Aplicar generosamente como el último paso de tu rutina de cuidado de la piel matutina. Reaplicar cada 2-3 horas durante la exposición solar.",
+    "descripcion_editorial": "El protector solar coreano más viral. Formulado con un 30% de extracto de arroz, conocido en la dinastía Joseon como 'agua de belleza', y probióticos que fortalecen la barrera natural. Su textura ligera se absorbe como una crema hidratante, dejando un brillo natural y saludable sin residuos blancos.",
+    "precio": 160,
+    "precio_anterior": 190,
+    "stock": true,
+    "badge": "viral",
+    "imagen": "assets/img/boj_sunscreen.png",
+    "imagenes_secundarias": [
+      "assets/img/mixsoon-mist.png",
+      "assets/img/cerave_cleanser.png"
+    ],
+    "rating": 4.9,
+    "reviews_count": 3420,
+    "volumen": "50ml",
+    "faq": [
+      {
+        "pregunta": "¿Deja residuo blanco (white cast)?",
+        "respuesta": "No, su fórmula química de nueva generación no deja ningún residuo blanco en ningún tono de piel."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "niacinamide-10-zinc-1-the-ordinary",
+    "marca": "The Ordinary",
+    "nombre": "Niacinamide 10% + Zinc 1%",
+    "categoria": "Skincare",
+    "subcategoria": "Sérum",
+    "pais_origen": "Canadá",
+    "ingredientes_activos": [
+      "Niacinamida (Vitamina B3) 10%",
+      "PCA de Zinc 1%"
+    ],
+    "beneficios": [
+      "Reduce la apariencia de imperfecciones",
+      "Equilibra la producción de sebo",
+      "Minimiza los poros dilatados",
+      "Mejora la luminosidad y textura"
+    ],
+    "textura": "Sérum en gel ligero",
+    "tipo_piel": [
+      "Mixta",
+      "Grasa",
+      "Propensa al acné"
+    ],
+    "modo_uso": "El Ritual: Aplicar unas gotas en el rostro por la mañana y por la noche antes de cremas más pesadas. Si usas vitamina C, aplícala en momentos alternos.",
+    "descripcion_editorial": "Un suero universal anti-imperfecciones que transforma la piel congestionada. La altísima concentración de Niacinamida, apoyada por la sal de zinc, trabaja en sinergia para purificar la piel, desvanecer marcas y controlar el brillo indeseado a lo largo del día.",
+    "precio": 95,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "bestseller",
+    "imagen": "assets/img/ordinary_serum.png",
+    "imagenes_secundarias": [
+      "assets/img/mixsoon-mist.png",
+      "assets/img/boj_sunscreen.png"
+    ],
+    "rating": 4.7,
+    "reviews_count": 8560,
+    "volumen": "30ml",
+    "faq": [
+      {
+        "pregunta": "¿Se puede usar con vitamina C?",
+        "respuesta": "Se recomienda usar vitamina C pura en una rutina diferente (ej. vitamina C de mañana y niacinamida de noche) para no alterar la integridad de los ingredientes."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "advanced-snail-96-mucin-power-essence-cosrx",
+    "marca": "COSRX",
+    "nombre": "Advanced Snail 96 Mucin Power Essence",
+    "categoria": "Skincare",
+    "subcategoria": "Esencia",
+    "pais_origen": "Corea del Sur",
+    "ingredientes_activos": [
+      "Filtrado de Secreción de Caracol (96.3%)",
+      "Hialuronato de Sodio",
+      "Pantenol"
+    ],
+    "beneficios": [
+      "Hidratación intensa de larga duración",
+      "Repara y fortalece la barrera cutánea",
+      "Calma rojeces e inflamaciones",
+      "Mejora la elasticidad y textura"
+    ],
+    "textura": "Esencia viscosa pero de rápida absorción",
+    "tipo_piel": [
+      "Seca",
+      "Deshidratada",
+      "Sensible",
+      "Propensa al acné"
+    ],
+    "modo_uso": "El Ritual: Después del tónico, aplicar una cantidad adecuada en todo el rostro. Dar suaves palmaditas con las yemas de los dedos para facilitar su total absorción.",
+    "descripcion_editorial": "El secreto coreano para una piel 'chok chok' (intensamente hidratada). Con un asombroso 96.3% de mucina de caracol, esta esencia milagrosa actúa como un escudo reparador que revive la piel dañada, devolviéndole su vitalidad y brillo sin dejar sensación pegajosa.",
+    "precio": 155,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "trending",
+    "imagen": "assets/img/cosrx_essence.png",
+    "imagenes_secundarias": [
+      "assets/img/loccitane-divine.png",
+      "assets/img/paulas_bha.png"
+    ],
+    "rating": 4.8,
+    "reviews_count": 12400,
+    "volumen": "100ml",
+    "faq": [
+      {
+        "pregunta": "¿Se daña a los caracoles para obtener la mucina?",
+        "respuesta": "No, COSRX es una marca cruelty-free. La mucina se recolecta de forma natural dejando a los caracoles moverse libremente sobre una malla en una habitación oscura."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "hydrating-facial-cleanser-cerave",
+    "marca": "CeraVe",
+    "nombre": "Hydrating Facial Cleanser",
+    "categoria": "Skincare",
+    "subcategoria": "Limpiador",
+    "pais_origen": "Estados Unidos",
+    "ingredientes_activos": [
+      "3 Ceramidas Esenciales",
+      "Ácido Hialurónico",
+      "Glicerina"
+    ],
+    "beneficios": [
+      "Limpia suavemente sin alterar la barrera natural",
+      "Retiene la humedad esencial de la piel",
+      "No comedogénico y sin fragancia",
+      "Tecnología MVE para hidratación 24h"
+    ],
+    "textura": "Loción cremosa no espumosa",
+    "tipo_piel": [
+      "Normal",
+      "Seca",
+      "Sensible"
+    ],
+    "modo_uso": "El Ritual: Humedecer la piel con agua tibia. Masajear el limpiador en la piel con un movimiento suave y circular. Enjuagar completamente.",
+    "descripcion_editorial": "Desarrollado con dermatólogos, este limpiador es la salvación para las pieles secas o sensibilizadas. Su fórmula cremosa retira impurezas mientras infunde la piel con ceramidas esenciales, dejándola limpia, fresca y profundamente hidratada, nunca tirante.",
+    "precio": 140,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "recomendado",
+    "imagen": "assets/img/cerave_cleanser.png",
+    "imagenes_secundarias": [
+      "assets/img/ordinary_serum.png",
+      "assets/img/boj_sunscreen.png"
+    ],
+    "rating": 4.8,
+    "reviews_count": 5200,
+    "volumen": "236ml",
+    "faq": []
+  },
+  {
+    "id": 8,
+    "slug": "effaclar-duo-plus-la-roche-posay",
+    "marca": "La Roche-Posay",
+    "nombre": "Effaclar Duo+ Tratamiento Correctivo",
+    "categoria": "Skincare",
+    "subcategoria": "Tratamiento",
+    "pais_origen": "Francia",
+    "ingredientes_activos": [
+      "Niacinamida",
+      "Procerad",
+      "LHA y Ácido Salicílico",
+      "Zinc PCA"
+    ],
+    "beneficios": [
+      "Desobstruye los poros rápidamente",
+      "Previene la aparición de marcas rojas u oscuras",
+      "Reduce las imperfecciones severas",
+      "Matifica y controla el exceso de sebo"
+    ],
+    "textura": "Gel-crema fresco e hidratante",
+    "tipo_piel": [
+      "Mixta",
+      "Grasa",
+      "Propensa al acné"
+    ],
+    "modo_uso": "El Ritual: Aplicar sobre todo el rostro por la mañana y/o por la noche después de limpiar la piel con Effaclar Gel. Excelente base de maquillaje.",
+    "descripcion_editorial": "El tratamiento dermatológico de referencia para el cuidado del acné. Su exclusiva tecnología antimarcas no solo seca los granitos rápidamente, sino que previene que dejen cicatrices oscuras. Su textura aqua-gel refresca y calma instantáneamente.",
+    "precio": 210,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": null,
+    "imagen": "assets/img/laroche_duo.png",
+    "imagenes_secundarias": [
+      "assets/img/kal-magnesio.png",
+      "assets/img/olly_gummies.png"
+    ],
+    "rating": 4.6,
+    "reviews_count": 1850,
+    "volumen": "40ml",
+    "faq": []
+  },
+  {
+    "id": 9,
+    "slug": "skin-perfecting-2-bha-paulas-choice",
+    "marca": "Paula's Choice",
+    "nombre": "Skin Perfecting 2% BHA Liquid Exfoliant",
+    "categoria": "Skincare",
+    "subcategoria": "Exfoliante",
+    "pais_origen": "Estados Unidos",
+    "ingredientes_activos": [
+      "Ácido Salicílico (BHA) 2%",
+      "Extracto de Té Verde",
+      "Metilpropanodiol"
+    ],
+    "beneficios": [
+      "Desobstruye y minimiza poros dilatados",
+      "Alisa visiblemente las arrugas finas",
+      "Unifica el tono de la piel",
+      "Elimina células muertas de forma no abrasiva"
+    ],
+    "textura": "Líquido ligero (como un tónico)",
+    "tipo_piel": [
+      "Todos los tipos",
+      "Grasa",
+      "Mixta"
+    ],
+    "modo_uso": "El Ritual: Aplicar suavemente con los dedos o un disco de algodón sobre todo el rostro y cuello, incluyendo el contorno de ojos. No enjuagar. Iniciar su uso de forma progresiva (ej. 2-3 noches por semana).",
+    "descripcion_editorial": "El exfoliante líquido sin aclarado número 1 en el mundo. Este fluido milagroso penetra profundamente en los poros para disolver bloqueos y eliminar células muertas, revelando una piel deslumbrantemente luminosa, suave y radiante desde el primer uso.",
+    "precio": 280,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "viral",
+    "imagen": "assets/img/paulas_bha.png",
+    "imagenes_secundarias": [
+      "assets/img/anua_toner.png",
+      "assets/img/cosrx_essence.png"
+    ],
+    "rating": 4.7,
+    "reviews_count": 9800,
+    "volumen": "118ml",
+    "faq": []
+  },
+  {
+    "id": 10,
+    "slug": "collagen-peptides-vital-proteins",
+    "marca": "Vital Proteins",
+    "nombre": "Collagen Peptides Premium",
+    "categoria": "Suplementos",
+    "subcategoria": "Colágeno",
+    "pais_origen": "Estados Unidos",
+    "ingredientes_activos": [
+      "Péptidos de Colágeno Bovino Hidrolizado",
+      "Vitamina C",
+      "Ácido Hialurónico"
+    ],
+    "beneficios": [
+      "Mejora la elasticidad e hidratación de la piel",
+      "Fortalece cabello y uñas",
+      "Apoya la salud de articulaciones y huesos",
+      "Alta biodisponibilidad y fácil absorción"
+    ],
+    "textura": "Polvo fino inodoro e insípido",
+    "tipo_piel": [
+      "Todos"
+    ],
+    "modo_uso": "El Ritual: Mezclar 1-2 cucharadas en tu bebida caliente o fría favorita (café, té, smoothies) o receta diaria. Revolver hasta que se disuelva completamente.",
+    "descripcion_editorial": "El suplemento de belleza desde el interior que estabas buscando. Sin sabor y muy fácil de integrar en tu rutina diaria, aporta los cimientos fundamentales para mantener una piel radiante, cabello fuerte y un cuerpo que se siente revitalizado y joven.",
+    "precio": 350,
+    "precio_anterior": 380,
+    "stock": false,
+    "badge": "bestseller",
+    "imagen": "assets/img/vital_collagen.png",
+    "imagenes_secundarias": [
+      "assets/img/loccitane-divine.png",
+      "assets/img/mixsoon-mist.png"
+    ],
+    "rating": 4.9,
+    "reviews_count": 4200,
+    "volumen": "284g (Polvo)",
+    "faq": []
+  },
+  {
+    "id": 11,
+    "slug": "hyaluronic-acid-aqua-gel-cream-isntree",
+    "marca": "ISNTREE",
+    "nombre": "Hyaluronic Acid Aqua Gel Cream",
+    "categoria": "Skincare",
+    "subcategoria": "Hidratante",
+    "pais_origen": "Corea del Sur",
+    "ingredientes_activos": [
+      "5 Tipos de Ácido Hialurónico",
+      "Extracto de Centella Asiática",
+      "Escualano vegetal",
+      "Alantoína"
+    ],
+    "beneficios": [
+      "Hidratación multi-nivel y profunda",
+      "Refresca y calma la piel irritada",
+      "Retiene la humedad sin obstruir poros",
+      "Fortalece la barrera de humedad protectora"
+    ],
+    "textura": "Gel-crema ultra fresco y ligero",
+    "tipo_piel": [
+      "Grasa",
+      "Mixta",
+      "Sensible"
+    ],
+    "modo_uso": "El Ritual: Como último paso del cuidado de la piel, aplicar una cantidad generosa sobre el rostro. Extender suavemente y dar ligeras palmaditas para su absorción.",
+    "descripcion_editorial": "Un vaso de agua fría para tu rostro. Esta innovadora crema en gel infunde 5 tamaños diferentes de ácido hialurónico en las capas profundas de la piel. Es perfecta para quienes buscan una hidratación intensa sin sensación de pesadez ni brillo graso.",
+    "precio": 165,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "nuevo",
+    "imagen": "assets/img/isntree_gel.png",
+    "imagenes_secundarias": [
+      "assets/img/cosrx_essence.png",
+      "assets/img/boj_sunscreen.png"
+    ],
+    "rating": 4.8,
+    "reviews_count": 980,
+    "volumen": "100ml",
+    "faq": []
+  },
+  {
+    "id": 12,
+    "slug": "heartleaf-77-soothing-toner-anua",
+    "marca": "Anua",
+    "nombre": "Heartleaf 77% Soothing Toner",
+    "categoria": "Skincare",
+    "subcategoria": "Tónico",
+    "pais_origen": "Corea del Sur",
+    "ingredientes_activos": [
+      "Extracto de Houttuynia Cordata (77%)",
+      "Pantenol",
+      "Extracto de Centella Asiática",
+      "Betaína"
+    ],
+    "beneficios": [
+      "Calma instantáneamente rojeces e irritaciones",
+      "Equilibra el pH óptimo de la piel",
+      "Suaviza e hidrata la textura",
+      "Previene brotes y protege de agresiones externas"
+    ],
+    "textura": "Líquido acuoso y refrescante",
+    "tipo_piel": [
+      "Sensible",
+      "Acneica",
+      "Todos los tipos"
+    ],
+    "modo_uso": "El Ritual: Después de limpiar, aplicar sobre el rostro con un disco de algodón o directamente con las palmas. Para un tratamiento intensivo, empapar discos de algodón y dejar sobre zonas irritadas como mascarilla durante 5 min.",
+    "descripcion_editorial": "El tónico número 1 en Corea para pieles sensibles y propensas al acné. Repleto con un 77% de extracto calmante de Heartleaf cultivado localmente en Corea, este tónico ultra puro funciona como un extintor de incendios para las rojeces y el malestar cutáneo.",
+    "precio": 185,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "viral",
+    "imagen": "assets/img/anua_toner.png",
+    "imagenes_secundarias": [
+      "assets/img/cosrx_essence.png",
+      "assets/img/kal-magnesio.png"
+    ],
+    "rating": 4.9,
+    "reviews_count": 5600,
+    "volumen": "250ml",
+    "faq": []
+  },
+  {
+    "id": 13,
+    "slug": "sleep-gummies-olly",
+    "marca": "Olly",
+    "nombre": "Sleep Gummies (Melatonina + Botanicals)",
+    "categoria": "Suplementos",
+    "subcategoria": "Vitaminas",
+    "pais_origen": "Estados Unidos",
+    "ingredientes_activos": [
+      "Melatonina (3mg)",
+      "L-Teanina",
+      "Manzanilla",
+      "Pasiflora"
+    ],
+    "beneficios": [
+      "Promueve un sueño profundo y reparador",
+      "Calma la mente hiperactiva",
+      "Ayuda a conciliar el sueño rápidamente",
+      "No genera dependencia (No-Habit Forming)"
+    ],
+    "textura": "Gomitas masticables sabor mora",
+    "tipo_piel": [
+      "Todos"
+    ],
+    "modo_uso": "El Ritual: Masticar 2 gomitas 30 minutos antes de ir a dormir. No se necesita agua.",
+    "descripcion_editorial": "Reescribe tu descanso nocturno. Estas deliciosas gomitas no son solo dulces; combinan una dosis perfecta de melatonina con L-Teanina y hierbas calmantes para relajar tu mente y prepararte para el sueño reparador que necesitas para despertar radiante.",
+    "precio": 150,
+    "precio_anterior": null,
+    "stock": true,
+    "badge": "recomendado",
+    "imagen": "assets/img/olly_gummies.png",
+    "imagenes_secundarias": [
+      "assets/img/kal-magnesio.png",
+      "assets/img/mixsoon-mist.png"
+    ],
+    "rating": 4.8,
+    "reviews_count": 3200,
+    "volumen": "50 gomitas",
+    "faq": []
+  },
+  {
+    "id": 14,
+    "slug": "la-roche-posay-effaclar-duo",
+    "marca": "La Roche-Posay",
+    "nombre": "Effaclar Duo+ M",
+    "categoria": "Skincare",
+    "subcategoria": "Tratamiento",
+    "pais_origen": "Francia",
+    "ingredientes_activos": [
+      "Niacinamida",
+      "Procerad",
+      "Ácido Salicílico"
+    ],
+    "beneficios": [
+      "Reduce imperfecciones severas",
+      "Previene marcas rojas y oscuras",
+      "Unifica el tono de la piel"
+    ],
+    "textura": "Gel-crema matificante",
+    "tipo_piel": [
+      "Grasa",
+      "Acneica"
+    ],
+    "modo_uso": "El Ritual: Aplicar en todo el rostro por la mañana y/o noche tras limpiar la piel.",
+    "descripcion_editorial": "El aliado definitivo contra las imperfecciones. Effaclar Duo+ M es un tratamiento corrector desobstructor anti-imperfecciones severas y marcas. Su fórmula avanzada con Niacinamida calma instantáneamente mientras actúa desde la raíz.",
+    "precio": 210,
+    "precio_anterior": 250,
+    "stock": true,
+    "badge": "oferta",
+    "imagen": "assets/img/la_roche_posay.png",
+    "imagenes_secundarias": [],
+    "rating": 4.7,
+    "reviews_count": 845,
+    "volumen": "40ml",
+    "faq": []
+  },
+  {
+    "id": 15,
+    "slug": "neogen-real-ferment-micro-essence",
+    "marca": "Neogen",
+    "nombre": "Real Ferment Micro Essence",
+    "categoria": "Skincare",
+    "subcategoria": "Esencia",
+    "pais_origen": "Corea del Sur",
+    "ingredientes_activos": [
+      "Complejo Micro Bio Fermentado 93%",
+      "Savia de Abedul",
+      "Niacinamida"
+    ],
+    "beneficios": [
+      "Hidratación ultra profunda",
+      "Refuerza la barrera cutánea",
+      "Ilumina al instante"
+    ],
+    "textura": "Líquida, como agua pero rica en nutrientes",
+    "tipo_piel": [
+      "Todos",
+      "Seca",
+      "Sensible"
+    ],
+    "modo_uso": "El Ritual: Después del tónico, aplicar unas gotas en las palmas y presionar suavemente sobre el rostro.",
+    "descripcion_editorial": "El secreto del codiciado 'Honey Skin'. Esta esencia fermentada penetra profundamente para saturar la piel de hidratación y nutrientes. Formulada con un 93% de ingredientes fermentados naturalmente, es el paso clave para una piel brillante y elástica.",
+    "precio": 300,
+    "precio_anterior": 360,
+    "stock": true,
+    "badge": null,
+    "imagen": "assets/img/neogen.png",
+    "imagenes_secundarias": [],
+    "rating": 4.9,
+    "reviews_count": 120,
+    "volumen": "150ml",
+    "faq": []
+  },
+  {
+    "id": 16,
+    "slug": "isntree-hyaluronic-acid-aqua-gel",
+    "marca": "ISNTREE",
+    "nombre": "Hyaluronic Acid Aqua Gel Cream",
+    "categoria": "Skincare",
+    "subcategoria": "Hidratante",
+    "pais_origen": "Corea del Sur",
+    "ingredientes_activos": [
+      "5 Tipos de Ácido Hialurónico",
+      "Centella Asiática",
+      "Extracto de Té Verde"
+    ],
+    "beneficios": [
+      "Hidratación sin pesadez",
+      "Efecto refrescante",
+      "Calma rojeces"
+    ],
+    "textura": "Gel acuoso translúcido",
+    "tipo_piel": [
+      "Grasa",
+      "Mixta"
+    ],
+    "modo_uso": "El Ritual: Como último paso de tu rutina, aplica una cantidad adecuada y masajea para sellar la hidratación.",
+    "descripcion_editorial": "Una ola de hidratación que tu piel beberá al instante. Esta crema en formato gel está formulada con 5 pesos moleculares de ácido hialurónico para hidratar cada capa de tu piel sin dejar residuos pegajosos. Ideal para climas cálidos y pieles mixtas.",
+    "precio": 180,
+    "precio_anterior": 220,
+    "stock": true,
+    "badge": "nuevo",
+    "imagen": "assets/img/isntree.png",
+    "imagenes_secundarias": [],
+    "rating": 4.6,
+    "reviews_count": 310,
+    "volumen": "100ml",
+    "faq": []
+  },
+  {
+    "id": 17,
+    "slug": "paulas-choice-2-bha",
+    "marca": "Paula's Choice",
+    "nombre": "2% BHA Liquid Exfoliant",
+    "categoria": "Skincare",
+    "subcategoria": "Exfoliante",
+    "pais_origen": "Estados Unidos",
+    "ingredientes_activos": [
+      "Ácido Salicílico 2%",
+      "Té Verde",
+      "Metilpropanodiol"
+    ],
+    "beneficios": [
+      "Desobstruye los poros",
+      "Suaviza la textura de la piel",
+      "Reduce puntos negros"
+    ],
+    "textura": "Líquido ultraligero",
+    "tipo_piel": [
+      "Mixta",
+      "Grasa",
+      "Normal"
+    ],
+    "modo_uso": "El Ritual: Con un pad de algodón o los dedos, aplica sobre el rostro limpio 2-3 veces por semana.",
+    "descripcion_editorial": "El exfoliante líquido sin enjuague número 1 del mundo. Su fórmula con 2% de BHA penetra rápidamente en los poros para eliminar las células muertas acumuladas, logrando una textura de piel impecable, luminosa y visiblemente más lisa.",
+    "precio": 350,
+    "precio_anterior": 420,
+    "stock": true,
+    "badge": "viral",
+    "imagen": "assets/img/paulas.png",
+    "imagenes_secundarias": [],
+    "rating": 4.8,
+    "reviews_count": 15000,
+    "volumen": "118ml",
+    "faq": []
+  },
+  {
+    "id": 18,
+    "slug": "vital-proteins-collagen-peptides",
+    "marca": "Vital Proteins",
+    "nombre": "Collagen Peptides Premium",
+    "categoria": "Suplementos",
+    "subcategoria": "Colágeno",
+    "pais_origen": "Estados Unidos",
+    "ingredientes_activos": [
+      "Péptidos de Colágeno Bovino",
+      "Vitamina C",
+      "Ácido Hialurónico"
+    ],
+    "beneficios": [
+      "Fortalece cabello y uñas",
+      "Mejora la elasticidad de la piel",
+      "Apoyo articular"
+    ],
+    "textura": "Polvo fino sin sabor",
+    "tipo_piel": [
+      "Todos"
+    ],
+    "modo_uso": "El Ritual: Mezclar 1 o 2 scoops en cualquier líquido frío o caliente diariamente.",
+    "descripcion_editorial": "La base de la belleza desde el interior. Este colágeno premium está potenciado con vitamina C y ácido hialurónico para maximizar su absorción. Se disuelve instantáneamente sin cambiar el sabor de tu café, smoothie o té matutino.",
+    "precio": 450,
+    "precio_anterior": 520,
+    "stock": true,
+    "badge": "bestseller",
+    "imagen": "assets/img/vital_proteins.png",
+    "imagenes_secundarias": [],
+    "rating": 4.9,
+    "reviews_count": 4200,
+    "volumen": "284g",
+    "faq": []
+  },
+  {
+    "id": 19,
+    "slug": "nutricost-creatine-monohydrate",
+    "marca": "Nutricost",
+    "nombre": "Creatine Monohydrate",
+    "categoria": "Suplementos",
+    "subcategoria": "Suplemento",
+    "pais_origen": "Estados Unidos",
+    "ingredientes_activos": [
+      "Monohidrato de Creatina Micronizada 5g"
+    ],
+    "beneficios": [
+      "Aumenta la fuerza muscular",
+      "Mejora el rendimiento físico",
+      "Apoyo cognitivo"
+    ],
+    "textura": "Polvo micronizado sin sabor",
+    "tipo_piel": [
+      "Todos"
+    ],
+    "modo_uso": "El Ritual: Mezclar 1 scoop (5g) en agua o tu bebida pre-entreno todos los días.",
+    "descripcion_editorial": "El suplemento más estudiado y seguro del mundo para maximizar tu vitalidad. Ya sea para rendir al máximo en tus entrenamientos o para dar un impulso a tu energía celular diaria, esta creatina de grado farmacéutico te ofrece resultados reales y comprobados.",
+    "precio": 280,
+    "precio_anterior": 330,
+    "stock": true,
+    "badge": "recomendado",
+    "imagen": "assets/img/nutricost.png",
+    "imagenes_secundarias": [],
+    "rating": 4.8,
+    "reviews_count": 1850,
+    "volumen": "500g",
+    "faq": []
+  }
+]
